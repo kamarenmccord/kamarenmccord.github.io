@@ -1,0 +1,68 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href='./public/logo_black_white.png' type='image/icon'>
+    <link rel="stylesheet" href='./styles/index.css'>
+    <link rel="stylesheet" href='./styles/header.css'>
+    <link rel="stylesheet" href='./styles/main.css'>
+    <link rel="stylesheet" href='./styles/footer.css'>
+    <link rel="stylesheet" href='./styles/subsection.css'>
+    <link rel="stylesheet" href='./styles/cards.css'>
+    <title>Kams Homepage</title>
+</head>
+<body>
+    <script src='./scripts/utils.js'></script>
+    <header>
+        <a href='./index.html'><div class='header__logo'></div></a>
+        <h1 class='header__title'>Kamaren M<small>c</small>Cord</h1>
+        <!-- use fontAwesome for links -->
+        <!-- populate nav via js loops -->
+        <div class='header__navigation' id='header__navigationIcons'>
+            navs
+        </div>
+    </header>
+
+    <main><div class='main__overlay'>
+        <div class='main__themeButton' onclick="toggleTheme(this)"><div id='toggleCircle'></div></div>
+
+        <div class='main__profileWrapper'>
+            <div class='main__profileContent main__profileContent--left'>
+                <h3>Web Developer</h3>
+                <h2>Self Taught</h2>
+                <h3>Linux User</h3>
+            </div>
+            <img src='https://avatars2.githubusercontent.com/u/43706940?s=400&u=4331702aef458da2b772c1c4b9f6f0e498b8918d&v=4' alt='profile'>
+            <div class='main__profileContent'>
+                <h3>JavaScript</h3>
+                <h2>Software Engineer</h2>
+                <h3>Problem Solver</h3>
+            </div>
+        </div>
+    </div></main>
+
+    <div class='subsection'>
+        <!-- links to other pages -->
+        <h4 class='subsection__intro'>Want to see some projects?</h4>
+        <div class='subsection__projects' id='projectShowcase'>
+            <div>enable JavaScript</div>
+        </div>
+        <a href='./projectboard.html'><div class='subsection__link'>See more +</div></a>
+    </div>
+
+    <footer>
+        <div class='footer__contact'>
+            Connect with me!
+        </div>
+        <div class='footer__navIcons'>
+            <div class='footer__icon'><a href='http://Linkedin.com/in/Kamaren-McCord'>LinkedIn</a></div>
+            <div class='footer__icon'><a href='https://github.com/kamarenmccord'>Git</a></div>
+            <div class='footer__icon'><a href='https://www.facebook.com/kamaren.mccord/'>Facebook</a></div>
+            <div class='footer__icon'><a href='https://twitter.com/kamaren1'>Twitter</a></div>
+            <div class='footer__icon'><a href='https://www.youtube.com/channel/UC9tx98FnTyrq1hAKBxTlpUQ'>Youtube</a></div>
+        </div>
+    </footer>
+    <script src='scripts/projects.js'></script>
+    <script src='./scripts/navigation.js'></script>
+</body>
+</html>
