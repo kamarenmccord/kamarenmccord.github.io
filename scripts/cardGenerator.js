@@ -28,6 +28,13 @@ const newData = [
         "blog":"I had a hard time grasping this at first. Nobody prepares you to be slapped in the face with Ui teams, Testing teams, System Admins, Tech leads, System Archetects, Buissness intelegence, and not to mention what is it like to work on code that isn't yours! After my head finally settled down from all the chaos I was able to get a grasp on what was going on. Planning and organizing is just as important as writing the code thats for sure."
     },
     {
+        "title": "Firestone Clone",
+        "image": './public/firestone.png',
+        'caption': 'Clone of the firestone webapp',
+        'lesson': "react hooks and react lifecycle played a big role in when and how I should get and update my data from node",
+        "blog": '',
+    },
+    {
         'title': 'pyRPGGame',
         'image': './public/pygame.png',
         'caption': 'An RPG adventure in rpg creation',
