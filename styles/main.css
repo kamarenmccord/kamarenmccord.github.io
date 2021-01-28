@@ -87,3 +87,16 @@ main{
 .main__overlay h3{
     color: #aaa;
 }
+
+@media only screen and (max-width: 860px){
+
+    .main__profileWrapper{
+        margin:0;
+        flex-direction:column;
+    }
+
+    .main__profileContent{
+        text-align:center;
+    }
+
+}

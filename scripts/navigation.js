@@ -29,7 +29,6 @@ const iconData = [
 ]
 
 const uploadData = () =>{
-    console.log('navs');
     let navs='';
 
     iconData.forEach(icon=>{
@@ -38,7 +37,9 @@ const uploadData = () =>{
         `
     })
 
-    document.getElementById(target).innerHTML = navs;
+    Object.values(document.getElementsByClassName(target)).forEach(elem=>{
+        elem.innerHTML = navs;
+    })
 }
 
 uploadData();
