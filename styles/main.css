@@ -1,102 +1,100 @@
-main{
-    background-color:blue;
-    width: 98%;
-    height: 800px;
-    background-image: url("https://images.unsplash.com/photo-1480506132288-68f7705954bd?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1393&q=80");
-    background-size: cover;
-    z-index: 1;
-    border: 1px solid #777;
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
-    overflow:hidden;
-    margin-bottom: 10px;
+main {
+  background-color: blue;
+  width: 98%;
+  height: 800px;
+  background-image: url("https://images.unsplash.com/photo-1480506132288-68f7705954bd?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1393&q=80");
+  background-size: cover;
+  z-index: 1;
+  border: 1px solid #777;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  overflow: hidden;
+  margin-bottom: 10px;
 }
 
-.main__overlay{
-    z-index: 2;
-    background-color: rgba(0,0,0,0.5);
-    width: 100%;
-    height: 100%;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    position:relative;
+.main__overlay {
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
 }
 
-.main__themeButton{
-    background-color:#333;
-    padding: 5px;
-    width: 60px;
-    height: 20px;
-    border-radius: 20px;
-    border: 1px solid white;
-    position:absolute;
-    top: 30px;
-    right: 40px;
-    display:flex;
-    align-items:center;
-    justify-content:flex-start;
-    cursor:pointer;
+.main__themeButton {
+  background-color: #333;
+  padding: 5px;
+  width: 60px;
+  height: 20px;
+  border-radius: 20px;
+  border: 1px solid white;
+  position: absolute;
+  top: 30px;
+  right: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  cursor: pointer;
 
-    display:none;
+  display: none;
 }
 
-#toggleCircle{
-    background-color:goldenrod;
-    border: 1px solid white;
-    border-radius: 50%;
-    height: 26px;
-    width: 26px;
+#toggleCircle {
+  background-color: goldenrod;
+  border: 1px solid white;
+  border-radius: 50%;
+  height: 26px;
+  width: 26px;
 }
 
-.main__profileWrapper{
-    padding: 20px 30px;
-    background-color: rgba(0,0,0,0.3);
-    border: 1px solid #333;
-    margin-top: -150px;
-    display:flex;
-    align-items:center;
+.main__profileWrapper {
+  padding: 20px 30px;
+  background-color: rgba(0, 0, 0, 0.3);
+  border: 1px solid #333;
+  margin-top: -150px;
+  display: flex;
+  align-items: center;
 }
 
-.main__profileContent{
-    display:flex;
-    flex-direction:column;
-    justify-content:space-evenly;
-    height: 170;
+.main__profileContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 170;
 }
 
-.main__profileContent--left{
-    text-align: right;
+.main__profileContent--left {
+  text-align: right;
 }
 
-.main__overlay > .main__profileWrapper > img{
-    width: 250px;
-    height: 250px;
-    margin-right: 50px;
-    margin-left: 50px;
-    border-radius: 50%;
-    border: 3px solid lightblue;
+.main__overlay > .main__profileWrapper > img {
+  width: 250px;
+  height: 250px;
+  margin-right: 50px;
+  margin-left: 50px;
+  border-radius: 50%;
+  border: 3px solid lightblue;
 }
 
-.main__overlay h2{
-    color:white;
-    font-size: 24px;
-    text-decoration: underline;
+.main__overlay h2 {
+  color: white;
+  font-size: 24px;
+  text-decoration: underline;
 }
 
-.main__overlay h3{
-    color: #aaa;
+.main__overlay h3 {
+  color: #aaa;
 }
 
-@media only screen and (max-width: 860px){
+@media only screen and (max-width: 860px) {
+  .main__profileWrapper {
+    margin: 0;
+    flex-direction: column;
+  }
 
-    .main__profileWrapper{
-        margin:0;
-        flex-direction:column;
-    }
-
-    .main__profileContent{
-        text-align:center;
-    }
-
+  .main__profileContent {
+    text-align: center;
+  }
 }
