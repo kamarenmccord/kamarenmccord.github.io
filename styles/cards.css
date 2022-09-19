@@ -57,6 +57,7 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  margin-bottom: 10px;
 }
 
 .card__footer {
